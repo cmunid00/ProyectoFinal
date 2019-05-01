@@ -1,0 +1,4 @@
+use ProyectoFinal;
+insert into Rol values('Cliente'),('Administrador');
+insert into Usuario values('admin','Administrador','paso','christian.munhue.1@educa.jcyl.es','Administrador'),('christian','Christian','paso','chvts96@gmail.com','Cliente');
+insert into Producto values ('curado1','Queso Curado','Con 9 meses de curado',40,'webroot/img/curado.jpg'),('anejo1','Queso Añejo','Con 12 meses de curado',60,'webroot/img/anejo.jpg'),('semicurado1','Queso Semi curado','Con 3 meses de curado',30,'webroot/img/semicurado.jpg'),('tierno1','Queso Tierno','Con 30 días de curado',20,'webroot/img/tierno.jpg'),('burgos1','Queso Burgos','Sin curación',10,'webroot/img/burgos.jpg');

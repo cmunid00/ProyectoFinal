@@ -1,0 +1,12 @@
+use ProyectoFinal;
+delete from Linea_Pedido;
+delete from Pedido;
+delete from Producto;
+delete from Usuario;
+delete from Rol;
+drop table Linea_Pedido;
+drop table Pedido;
+drop table Producto;
+drop table Usuario;
+drop table Rol;
+drop database ProyectoFinal;

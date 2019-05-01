@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+
+.presentacion {
+	width: 100%;
+	height: 1000px;
+	background: url("../img/presentacion.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin-bottom: -80px;
+	transition: 1s;
+}
+
+.presentacion:hover {
+	transform: scale(1.2);
+}
+
+header {
+	width: 100%;
+	height: 230px;
+	background-image: url("../img/fondoHeader.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.separador {
+	margin-bottom: 80px;
+}
+
+footer {
+	background-color: #2bbbad;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	transition: 1s;
+}
+
+footer:hover {
+	transform: scale(1.2);
+}
+
+footer p {
+	padding: 10px;
+	font-family: 'Permanent Marker';
+	font-variant: small-caps;
+	text-align: center;
+	color: white;
+}
